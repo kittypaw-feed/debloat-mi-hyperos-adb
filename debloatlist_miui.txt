@@ -1,0 +1,107 @@
+# Пресет создан в программе ADB AppControl версии: 1.7.5
+# Приложений всего: 76
+# 2022-08-17_21:05:41
+# Xiaomi 21121210G Удаленные приложения
+(copy het cac lenh tren, chuot phai paste vao Enter chay lenh)
+
+pm uninstall --user 0 com.miui.analytics
+pm uninstall --user 0 com.google.android.projection.gearhead
+pm uninstall --user 0 com.android.egg
+pm uninstall --user 0 com.android.bluetoothmidiservice
+pm uninstall --user 0 com.android.bookmarkprovider
+pm uninstall --user 0 com.google.android.cellbroadcastservice
+pm uninstall --user 0 com.miui.cit
+pm uninstall --user 0 com.android.cellbroadcastreceiver
+pm uninstall --user 0 com.android.cellbroadcastreceiver.overlay.common
+pm uninstall --user 0 com.android.cts.priv.ctsshim
+pm uninstall --user 0 com.android.providers.partnerbookmarks
+pm uninstall --user 0 com.android.wallpaperbackup
+pm uninstall --user 0 com.android.wallpapercropper
+pm uninstall --user 0 com.google.android.cellbroadcastreceiver.overlay.miui
+pm uninstall --user 0 com.google.android.cellbroadcastservice.overlay.miui
+pm uninstall --user 0 com.qualcomm.uimremoteclient
+pm uninstall --user 0 com.qualcomm.uimremoteserver
+pm uninstall --user 0 com.google.android.apps.turbo
+pm uninstall --user 0 com.facebook.system
+pm uninstall --user 0 com.facebook.appmanager
+pm uninstall --user 0 com.facebook.services
+pm uninstall --user 0 com.xiaomi.mipicks
+pm uninstall --user 0 com.google.android.gm
+pm uninstall --user 0 com.google.android.googlequicksearchbox
+pm uninstall --user 0 com.android.hotwordenrollment.xgoogle
+pm uninstall --user 0 com.android.hotwordenrollment.okgoogle
+pm uninstall --user 0 com.google.android.apps.subscriptions.red
+pm uninstall --user 0 com.google.android.onetimeinitializer
+pm uninstall --user 0 com.google.android.tts
+pm uninstall --user 0 com.qualcomm.location
+pm uninstall --user 0 com.xiaomi.payment
+pm uninstall --user 0 com.xiaomi.mi_connect_service
+pm uninstall --user 0 com.miui.mishare.connectivity
+pm uninstall --user 0 com.miui.videoplayer
+pm uninstall --user 0 com.miui.daemon
+pm uninstall --user 0 com.android.mms.service
+pm uninstall --user 0 com.miui.msa.global
+pm uninstall --user 0 com.android.theme.font.notoserifsource
+pm uninstall --user 0 com.google.android.printservice.recommendation
+pm uninstall --user 0 com.miui.hybrid
+pm uninstall --user 0 com.miui.audiomonitor
+pm uninstall --user 0 com.miui.hybrid.accessory
+pm uninstall --user 0 com.qti.xdivert
+pm uninstall --user 0 com.tencent.soter.soterserver
+pm uninstall --user 0 com.xiaomi.xmsfkeeper
+pm uninstall --user 0 com.google.android.apps.googleassistant
+pm uninstall --user 0 com.android.emergency
+pm uninstall --user 0 com.google.android.gms.location.history
+pm uninstall --user 0 com.google.android.apps.maps
+pm uninstall --user 0 com.android.wallpaper.livepicker
+pm uninstall --user 0 com.android.stk
+pm uninstall --user 0 com.miui.player
+pm uninstall --user 0 com.google.android.partnersetup
+pm uninstall --user 0 com.google.android.feedback
+pm uninstall --user 0 com.miui.bugreport
+pm uninstall --user 0 com.miui.touchassistant
+pm uninstall --user 0 com.android.bips
+pm uninstall --user 0 com.miui.miservice
+pm uninstall --user 0 com.google.android.marvin.talkback
+pm uninstall --user 0 com.miui.yellowpage
+pm uninstall --user 0 com.android.printspooler
+pm uninstall --user 0 com.milink.service
+pm uninstall --user 0 com.android.traceur
+pm uninstall --user 0 com.google.android.apps.wellbeing
+pm uninstall --user 0 com.miui.phrase
+pm uninstall --user 0 com.google.android.cellbroadcastreceiver
+pm uninstall --user 0 com.android.internal.systemui.navbar.threebutton
+pm uninstall --user 0 com.android.systemui.navigation.bar.overlay
+pm uninstall --user 0 com.android.internal.systemui.navbar.gestural
+pm uninstall --user 0 com.android.internal.systemui.navbar.gestural_wide_back
+pm uninstall --user 0 com.android.internal.systemui.navbar.gestural_extra_wide_back
+pm uninstall --user 0 com.android.internal.systemui.navbar.gestural_narrow_back
+pm uninstall --user 0 com.xiaomi.gnss.polaris
+pm uninstall --user 0 com.android.smspush
+pm uninstall --user 0 com.android.updater
+pm uninstall --user 0 com.miui.greenguard
+pm uninstall --user 0 com.xiaomi.aiasst.service
+pm uninstall --user 0 com.xiaomi.aiasst.vision
+pm uninstall --user 0 org.mipay.android.manager
+pm uninstall --user 0 com.xiaomi.mirror
+pm uninstall --user 0 com.miui.tsmclient
+pm uninstall --user 0 com.miui.voicetrigger
+pm uninstall --user 0 com.xiaomi.xaee
+pm uninstall --user 0 com.xiaomi.aireco
+pm uninstall --user 0 com.unionpay.tsmservice.mi
+pm uninstall --user 0 com.miui.vipservice
+pm uninstall --user 0 com.fido.asm
+pm uninstall --user 0 com.miui.carlink
+pm uninstall --user 0 com.xiaomi.joyose
+pm uninstall --user 0 com.miui.calculator
+
+pm uninstall --user 0 com.sohu.inputmethod.sogou.xiaomi
+pm uninstall --user 0 com.miui.cleaner
+
+pm uninstall --user 0 com.bsp.catchlog
+
+
+adb shell pm compile -a -f --check-prof false -m everything
+adb shell pm compile -a -f --check-prof false --compile-layouts
+adb shell pm bg-dexopt-job
+
